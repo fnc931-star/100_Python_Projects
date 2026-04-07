@@ -13,5 +13,3 @@ def tipCalculator():
     return f"Each person should pay: ${total_bill/split:.2f}"
 
 
-total_bill = tipCalculator()
-print(total_bill)
