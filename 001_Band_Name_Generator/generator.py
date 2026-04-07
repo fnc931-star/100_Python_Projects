@@ -6,10 +6,10 @@ def BandNameGenerator():
     
 
     # Get the City name
-    city_name = input("What's the name of the city you grew up in? /n")
+    city_name = input("What's the name of the city you grew up in?\n")
     
     # Get your Favourite Pet name
-    pet_name = input("What's your pet name? /n")
+    pet_name = input("What's your pet name?\n")
 
     # Concate the City and Pet name to create a Band Name
     band_name = city_name + " " + pet_name
@@ -22,8 +22,3 @@ def BandNameGenerator():
 # Save the Band Name into a variable for reuse into another file
 result  = BandNameGenerator()
 
-
-
-
-if __name__ == "__main__":
-    print("This is a Band Name Generator File")
