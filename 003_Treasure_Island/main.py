@@ -1,6 +1,7 @@
 import os
 from time import sleep
 import visual_art
+import tressure_island
 
 
 if __name__ == '__main__':
@@ -11,8 +12,9 @@ if __name__ == '__main__':
     print("\nWELCOME TO TREASURE ISLAND")
     print("Your MISSION is to find the Treasure")
 
-
-    print("Thank You for visiting My Island")
+    tressure_island.island()
+    
+    print("\n================= Thank You for visiting My Island =================")
 
     sleep(5)
 
