@@ -32,23 +32,18 @@ def user_choice(user, comp):
     else:
         return False
    
+def score(user, comp):
+    if user == comp:
+       return "It's a Draw!"
+    elif user_choice(user,comp) == True:
+        return "You Win!"
+    elif computer_choice(user,comp) == True:
+        return "You Lose"
+    else:
+        return "You typed an invalid number, You lose!"
 
 
-user = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissor.\n"))
-comp = random.randint(0,2)
 
-print(art[user])
-print("\nComputer Chose:\n",art[comp])
-
-
-if user == comp:
-    print("It's a Draw!")
-elif user_choice(user,comp) == True:
-    print("You Win!")
-elif computer_choice(user,comp) == True:
-    print("You Lose")
-else:
-    print("You typed an invalid number, You lose!")
 
 
 
