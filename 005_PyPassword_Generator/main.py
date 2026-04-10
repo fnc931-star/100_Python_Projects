@@ -9,3 +9,7 @@ if __name__ == "__main__":
     print("\nWELCOME TO THE PYPASSWORD GENERATOR!\n")
 
 
+    output = pass_generator.requireInputs()
+
+    print(f"Password: {output}")
+
