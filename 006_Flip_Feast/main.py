@@ -7,4 +7,4 @@ if decision_maker.count(0) > 1:
     print(f"Opps Sorry🥲! Aj paisy bachao or Ghar ka Khana khao😂")
 
 else:
-    print("Wah Wah! Jan chuti 😅 Nikalo Paisa 🤑 or Urao Fast Food pr,'\n' Mazy kro😋")
+    print("Wah Wah! Jan chuti 😅 Nikalo Paisa 🤑 or Urao Fast Food pr, Mazy kro😋")
