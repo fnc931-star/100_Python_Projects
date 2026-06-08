@@ -11,5 +11,10 @@ if __name__ == "__main__":
 
     output = pass_generator.requireInputs()
 
-    print(f"Password: {output}")
+    print(f"{output}")
+    print("\n\t\tThank You For sing my Password Generator")
+
+    sleep(5)
+
+    os.system('clear')
 
