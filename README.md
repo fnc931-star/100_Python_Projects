@@ -21,7 +21,8 @@ The goal is not just to write code, but to **think like a developer** — iterat
 | 004 | Rock Paper Scissor | 🟢 Beginner | ✅ Done |
 | 005 | PyPassword Generator | 🟢 Beginner | ✅ Done |
 | 006 | Flip Feast | 🟢 Beginner | ✅ Done |
-| 007 | GuessOrHang | 🟢 Beginner | 🔄 In Progress |
+| 007 | GuessOrHang | 🟢 Beginner | ✅ Done |
+| 008 | CodeWheel | 🟢 Beginner | 🔄 In Progress |
 | ... | More coming soon | — | ⏳ Upcoming |
 
 ---
